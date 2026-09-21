@@ -31,10 +31,10 @@ export default function destinosListarScreen() {
             await api.post("/api/destinos", {
                 title: titulo,
                 country: pais,
-                type_destiny: tipoDestino,
-                melhor_epoca: melhorEpoca,
-                custo_medio: Number (custoMedio),
-            })
+                tipoDestino: tipoDestino,
+                melhorEpoca: melhorEpoca,
+                custoMedio: Number(custoMedio),
+            });
 
             const resposta = await api.post("/api/destinos", payload);
 
@@ -45,5 +45,5 @@ export default function destinosListarScreen() {
             setMelhorEpoca("");
             setCustoMedio("");
         }
-    }
  }
+}
