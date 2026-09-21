@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "atividade-avaliativa",
+    "slug": "atividade-avaliativa",
+    "scheme": "atividade-avaliativa",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
