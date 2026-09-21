@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from 'react';
-import { TurboModuleRegistry } from 'react-native';
 
 const API_KEY = 'cv_HsSx_oeiJ882GCghHPhmTfdFB0kphgB99xkaEQVCWv_KqI32BA_Y4x4V2ouZlee9';
 
